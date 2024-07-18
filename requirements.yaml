@@ -1,0 +1,12 @@
+name: fin_app
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.12.2
+  - pip==23.3.1
+  - pip:
+    - Pillow==10.4.0
+    - kivy[base]==2.3.0
+    - tensorflow==2.17.0
+    - numpy==1.26.4
