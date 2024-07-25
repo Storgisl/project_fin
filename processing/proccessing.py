@@ -13,4 +13,4 @@ def open_file_chooser(instance):
                 popup.dismiss()
 
     popup = Popup(title="Select a Photo", content=content, size_hint=(0.9, 0.9))
-        popup.open()
+    popup.open()
