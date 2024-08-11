@@ -2,3 +2,4 @@
 pg_hba.conf
 postgresql.conf
 logs
+data
