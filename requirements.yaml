@@ -10,6 +10,8 @@ dependencies:
     - kivy[base]==2.3.0
     - tensorflow==2.17.0
     - numpy==1.26.4
-    - psycopg2-binary=2.9.9
-    - sqlalchemy=2.0.31
-    - faker=26.0.0 #We use faker for creating mock records to insert into the database table.
+    - psycopg2-binary==2.9.9
+    - sqlalchemy==2.0.31
+    - faker==26.0.0 #We use faker for creating mock records to insert into the database table.
+    - python-dotenv==1.0.1
+    - alembic==1.13.2
